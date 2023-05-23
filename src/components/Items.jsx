@@ -20,6 +20,7 @@ const Items = () => {
         products.map((list) => (
           <ItemCard
             key={list.id}
+            id={list.id}
             image={list.image}
             price={list.price}
             title={list.title}
